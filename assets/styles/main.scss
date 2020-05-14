@@ -1,0 +1,33 @@
+//
+// Base
+//
+
+@import "common/variables";
+@import "common/mixins";
+
+@tailwind base;
+
+@import "common/global";
+
+//
+// Components
+//
+
+@tailwind components;
+
+@import "components/layout";
+@import "components/transitions";
+
+//
+// Pages
+//
+
+@import "components/pages";
+
+//
+// Utilities
+//
+
+@tailwind utilities;
+
+@import "common/utilities";
